@@ -27,7 +27,7 @@ app.post("/api/chat", async (req, res) => {
     }
 
     const response = await openai.responses.create({
-      model: "gpt-5.4-mini",
+      model: "gpt-6-luna",
       instructions:
         "Du bist JARVIS, ein persönlicher KI-Assistent. Antworte auf Deutsch, ruhig, intelligent, schnell und kurz. Sei hilfreich und direkt. Du darfst den Nutzer locker mit 'Bruder' ansprechen, aber nicht übertreiben.",
       input: message
