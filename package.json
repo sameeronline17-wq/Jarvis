@@ -10,6 +10,6 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "openai": "^6.0.0",
-    "@elevenLabs/elevenLabs-js": "^2.59.0"
+
   }
 }
